@@ -16,8 +16,8 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    install_requires=[],
+    install_requires=["numpy", "matplotlib", "ipympl", "notebook", "palettable"],
     extras_require={
-        "dev": ["black", "notebook"],
+        "dev": ["black"],
     },
 )
