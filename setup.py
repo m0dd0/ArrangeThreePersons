@@ -6,7 +6,8 @@ setup(
     author="Moritz Hesche",
     author_email="mo.hesche@gmail.com",
     # description='A short description of your package',
-    packages=find_packages(),
+    # packages=find_packages(),
+    packages=['a3p'],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
